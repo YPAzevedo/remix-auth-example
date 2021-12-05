@@ -1,0 +1,65 @@
+.AuthForm-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.AuthForm-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid var(--color-primary-700);
+  border-radius: 5px;
+  background-color: var(--color-primary-500);
+  box-shadow: var(--shadow-200);
+}
+
+.AuthForm-container form span {
+  font-size: var(--space-300);
+  color: var(--color-primary-900);
+  margin-bottom: var(--space-300);
+  text-transform: capitalize;
+}
+
+.AuthForm-container form input {
+  width: 200px;
+  padding: var(--space-100);
+  border: 1px solid var(--color-primary-600);
+  border-radius: 5px;
+  margin-bottom: var(--space-100);
+}
+
+.AuthForm-container form button[type='submit'] {
+  width: 200px;
+  padding: var(--space-100);
+  border: 1px solid var(--color-primary-800);
+  border-radius: 5px;
+  background-color: var(--color-primary-800);
+  color: var(--white);
+  text-transform: uppercase;
+  transition: background-color 100ms;
+}
+
+.AuthForm-container form button[type='submit']:hover {
+  background-color: var(--color-primary-700);
+}
+
+.AuthForm-container form small {
+  color: var(--color-danger-600);
+  padding-bottom: var(--space-100);
+}
+
+.AuthForm-container form a {
+  color: var(--black);
+  margin-top: var(--space-400);
+  text-decoration: none;
+}
+
+.AuthForm-container form a:hover {
+  text-decoration: underline;
+}

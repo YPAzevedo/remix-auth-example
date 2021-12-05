@@ -1,10 +1,10 @@
 .AppHeader-header {
-  background-color: var(--color-primary-500);
-  border-bottom: 1px solid var(--color-primary-700);
-  box-shadow: var(--shadow-100);
-  color: var(--color-primary-800);
+  background-color: var(--color-primary-600);
+  box-shadow: var(--shadow-200);
+  color: var(--white);
   display: flex;
-  font-size: var(--space-300);
+  font-size: var(--font-size-300);
+  font-weight: bold;
   height: var(--header-height);
   justify-content: space-between;
   left: 0;
@@ -22,8 +22,7 @@
 }
 
 .AppHeader-header form button {
-  padding: var(--space-50) var(--space-100);
-  border: 1px solid var(--color-primary-800);
+  padding: var(--space-100);
   border-radius: 5px;
   background-color: var(--color-primary-800);
   color: var(--white);

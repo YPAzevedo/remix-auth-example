@@ -12,7 +12,7 @@ const AppHeader = ({ authenticated }: AppHeaderProps) => {
       </span>
       {authenticated && (
         <form method="post" action="/logout">
-          <button>Log out</button>
+          <button>Logout</button>
         </form>
       )}
     </header>

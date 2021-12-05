@@ -7,9 +7,9 @@
 }
 
 .Index-container h1 {
-  font-size: var(--space-300);
+  font-size: var(--font-size-300);
 }
 
 .Index-container h1 span {
-  font-size: var(--space-500);
+  font-size: var(--font-size-500);
 }
